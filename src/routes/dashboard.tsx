@@ -44,8 +44,8 @@ export function Dashboard() {
         </header>
 
         <div className="grid lg:grid-cols-[240px_1fr] gap-6">
-          <aside className="glass-strong rounded-3xl p-3 lg:sticky lg:top-28 lg:self-start">
-            <nav className="flex lg:flex-col gap-1 overflow-x-auto no-scrollbar">
+          <aside className="glass-strong rounded-3xl p-3 lg:sticky lg:top-28 lg:self-start overflow-x-auto -mx-4 px-4 lg:mx-0 lg:px-3 lg:overflow-x-visible">
+            <nav className="flex lg:flex-col gap-1 no-scrollbar">
               {([
                 { id: "orders", label: "Orders", icon: Package },
                 { id: "wishlist", label: "Wishlist", icon: Heart },

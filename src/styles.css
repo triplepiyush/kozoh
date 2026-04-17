@@ -43,6 +43,10 @@
   --font-body: 'Work Sans', sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 :root {
   --radius: 1.25rem;
 

@@ -28,9 +28,9 @@ function HomePage() {
       <section className="relative px-4 md:px-8 pt-4 md:pt-12">
         <div className="max-w-7xl mx-auto relative">
           {/* Floating blobs */}
-          <div className="absolute -top-10 -left-10 w-72 h-72 rounded-full bg-primary/30 blur-3xl animate-blob" />
-          <div className="absolute top-20 right-0 w-96 h-96 rounded-full bg-accent/30 blur-3xl animate-blob" style={{ animationDelay: "3s" }} />
-          <div className="absolute bottom-0 left-1/3 w-80 h-80 rounded-full bg-cyan/30 blur-3xl animate-blob" style={{ animationDelay: "6s" }} />
+          <div className="absolute -top-10 -left-10 w-40 h-40 md:w-72 md:h-72 rounded-full bg-primary/30 blur-3xl animate-blob" />
+          <div className="absolute top-20 right-0 w-48 h-48 md:w-96 md:h-96 rounded-full bg-accent/30 blur-3xl animate-blob" style={{ animationDelay: "3s" }} />
+          <div className="absolute bottom-0 left-1/3 w-40 h-40 md:w-80 md:h-80 rounded-full bg-cyan/30 blur-3xl animate-blob" style={{ animationDelay: "6s" }} />
 
           <div className="relative grid lg:grid-cols-2 gap-8 items-center min-h-[80vh] py-12">
             <div className="space-y-6 z-10">
