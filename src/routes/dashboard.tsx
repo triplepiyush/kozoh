@@ -39,11 +39,11 @@ export function Dashboard() {
           <div className="w-16 h-16 rounded-full gradient-hero grid place-items-center text-white font-heading text-3xl">P</div>
           <div>
             <p className="text-sm text-muted-foreground">Welcome back</p>
-            <h1 className="font-heading text-4xl md:text-5xl">Piyush Pandey</h1>
+            <h1 className="font-heading text-4xl md:text-5xl">Piyush</h1>
             <div className="flex items-center gap-4 text-sm text-muted-foreground mt-2">
               <a href="mailto:triplepiyush@gmail.com" className="hover:text-foreground transition">triplepiyush@gmail.com</a>
               <span>·</span>
-              <span>+1 (626) 309-8243</span>
+              <span>6263098243</span>
             </div>
           </div>
         </header>
@@ -190,11 +190,11 @@ export function Dashboard() {
               <div className="animate-fade-in glass-strong rounded-3xl p-8 space-y-5">
                 <h3 className="font-heading text-3xl">Profile settings</h3>
                 <div className="grid grid-cols-2 gap-3">
-                  <Field label="First name" def="Alex" />
-                  <Field label="Last name" def="Morgan" />
+                  <Field label="First name" def="Piyush" />
+                  <Field label="Last name" def="Pandey" />
                 </div>
-                <Field label="Email" def="alex@kozohworld.com" />
-                <Field label="Phone" def="+44 7700 900123" />
+                <Field label="Email" def="triplepiyush@gmail.com" />
+                <Field label="Phone" def="+91 6263098243" />
                 <div className="space-y-3 border-t border-border pt-5">
                   <Toggle label="Email me about new drops" defaultChecked />
                   <Toggle label="SMS order updates" defaultChecked />
