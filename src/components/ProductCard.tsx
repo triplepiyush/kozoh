@@ -19,7 +19,7 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
             src={product.image}
             alt={product.name}
             loading="lazy"
-            className="absolute inset-0 w-full h-full object-contain p-6 transition-transform duration-700 group-hover:scale-110 group-hover:-rotate-3"
+            className="absolute inset-0 w-full h-full object-contain p-3 transition-transform duration-700 group-hover:scale-110 group-hover:-rotate-3"
           />
           {product.oldPrice && (
             <span className="absolute top-3 left-3 glass-dark text-xs font-semibold px-2.5 py-1 rounded-full">
@@ -48,7 +48,7 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
       </button>
 
       <div className="pt-4 px-1">
-        <div className="flex items-center gap-1.5 text-xs text-muted-foreground mb-1">
+        <div className="flex items-center gap-1.5 text-xs text-muted-foreground mb-2">
           <span>{product.brand}</span>
           <span>·</span>
           <Star className="w-3 h-3 fill-current text-amber-500" />
@@ -56,7 +56,7 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
           <span className="text-muted-foreground/60">({product.reviews})</span>
         </div>
         <Link to="/product/$id" params={{ id: product.id }}>
-          <h3 className="font-heading text-xl leading-tight mb-2 hover:text-primary transition">{product.name}</h3>
+          <h3 className="font-heading text-lg leading-snug mb-3 hover:text-primary transition line-clamp-2">{product.name}</h3>
         </Link>
         <div className="flex items-end justify-between">
           <div className="flex items-baseline gap-2">

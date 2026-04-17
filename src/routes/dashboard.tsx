@@ -36,10 +36,15 @@ export function Dashboard() {
     <div className="px-4 md:px-8 animate-fade-in">
       <div className="max-w-7xl mx-auto">
         <header className="mb-8 flex items-center gap-4">
-          <div className="w-16 h-16 rounded-full gradient-hero grid place-items-center text-white font-heading text-3xl">A</div>
+          <div className="w-16 h-16 rounded-full gradient-hero grid place-items-center text-white font-heading text-3xl">P</div>
           <div>
             <p className="text-sm text-muted-foreground">Welcome back</p>
-            <h1 className="font-heading text-4xl md:text-5xl">Alex Morgan</h1>
+            <h1 className="font-heading text-4xl md:text-5xl">Piyush Pandey</h1>
+            <div className="flex items-center gap-4 text-sm text-muted-foreground mt-2">
+              <a href="mailto:triplepiyush@gmail.com" className="hover:text-foreground transition">triplepiyush@gmail.com</a>
+              <span>·</span>
+              <span>+1 (626) 309-8243</span>
+            </div>
           </div>
         </header>
 
