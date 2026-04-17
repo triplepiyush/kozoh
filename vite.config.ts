@@ -15,5 +15,12 @@ export default defineConfig({
     alias: {
       "@": "/src"
     }
+  },
+  preview: {
+    allowedHosts: [
+      "kozoh-by-piyush.onrender.com",
+      "localhost",
+      "127.0.0.1"
+    ]
   }
 });
